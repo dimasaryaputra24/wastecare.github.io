@@ -4,6 +4,13 @@
    box-sizing: border-box;
 }
 
+body {
+    background-image: url(https://rasch.cstatic.io/media/86/b9/2c/1750316837/tapete-entsorgen.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+}
+
 .nav-atas {
     background-color: #41AB5D;
     font-family: 'Poppins', sans-serif;
@@ -51,4 +58,83 @@
 
 .nav-atas li a.active {
     background-color: rgba(0,0,0,0.15);
+}
+
+.member {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+.member .card { 
+    position: relative;
+    width: 23%;
+    height: 80vh;
+    margin: 20px 0px 0px 20px;
+    background-color: rgba(0,0,0,0.8);
+    border: solid thin black;
+    box-shadow: 0 0 6px #999999;
+}
+
+.member .card .text {
+    color: white;
+    padding: 15px 0 0 22px;
+}
+
+.member .card h1 {
+    font-size: 20px;
+}
+
+.card .harga {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.card p {
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.card .tag {
+    display: flex;
+    align-items: baseline;
+}
+
+.card hr {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.card ul {
+    padding-left: 20px;
+}
+
+.card ul li {
+    margin-top: 15px;
+}
+
+.card .button {
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    display: flex;
+    margin: 100px 0 30px 0;
+    justify-content: center;
+}
+
+.card .button button {
+    border: thin solid #41AB5D;
+    border-radius: 30px;
+    background-color: #41AB5D;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.card .button button:hover {
+    background-color: rgba(0,0,0,0);
+    border: thin solid #41AB5D;
+    color: #41AB5D;
+    transition: 0.2s;
 }
