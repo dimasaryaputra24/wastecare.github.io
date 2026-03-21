@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WasteCare</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="nav-atas">
+            <div class="title">
+                <a href="index.html">WasteCare</a>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="layanan.html">Layanan</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="tentang.html">Tentang</a></li>
+            </ul>
+        </nav>
+        <div class="form-order">
+            <div class="form-head">
+                <h1>Langganan Paket Premium+</h1>
+                <h2>Detail Order</h2>
+                <hr>
+            </div>
+            <form class="form-body">
+                <div class="form-input">
+                    <label>Nama Depan</label>
+                    <input type="text" name="nama-depan">
+                </div>
+                <div class="form-input">
+                    <label>Nama Belakang</label>
+                    <input type="text" name="nama-belakang">
+                </div>
+                <div class="form-input">
+                    <label>Nomor Telepon</label>
+                    <input type="tel" name="telepon" placeholder="08xxxxxxxxxx">
+                </div>
+                <div class="form-input">
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="contoh@gmail.com">
+                </div>
+                <div class="form-input">
+                    <label for="provinsi">Provinsi</label>
+                    <select id="provinsi" name="provinsi">
+                        <option disabled selected>Pilih Provinsi</option>
+                        <option value="jawa-tengah">Jawa Tengah</option>
+                    </select>
+                </div>
+                <div class="form-input">
+                    <label for="kabupaten">Kabupaten/Kota</label>
+                    <select id="kabupaten" name="kabupaten">
+                        <option disabled selected>Pilih Kabupaten/Kota</option>
+                        <option value="surakarta">Surakarta</option>
+                        <option value="sukoharjo">Sukoharjo</option>
+                        <option value="karanganyar">Karanganyar</option>
+                        <option value="boyolali">Boyolali</option>
+                        <option value="klaten">Klaten</option>
+                        <option value="salatiga">Salatiga</option>
+                    </select>
+                </div>
+                <div class="form-input">
+                    <label for="kecamatan">Kecamatan</label>
+                    <select id="kecamatan" name="kecamatan">
+                        <option disabled selected>Pilih Kecamatan</option>
+                        <option value="laweyan">Laweyan</option>
+                        <option value="serengan">Serengan</option>
+                        <option value="pasar_kliwon">Pasar Kliwon</option>
+                        <option value="jebres">Jebres</option>
+                        <option value="banjarsari">Banjarsari</option>
+                    </select>
+                </div>
+                <div class="form-input">
+                    <label for="kelurahan">Kelurahan/Desa</label>
+                    <select id="kelurahan" name="kelurahan">
+                        <option disabled selected>Pilih Kelurahan/Desa</option>
+                        <option value="mojosongo">Mojosongo</option>
+                        <option value="pucangsawit">Pucangsawit</option>
+                        <option value="kepatihan_wetan">Kepatihan Wetan</option>
+                        <option value="kepatihan_kulon">Kepatihan Kulon</option>
+                        <option value="sudiroprajan">Sudiroprajan</option>
+                        <option value="gandekan">Gandekan</option>
+                        <option value="purwodiningratan">Purwodiningratan</option>
+                    </select>
+                </div>
+                <div class="form-input full">
+                    <label>Alamat Detail</label>
+                    <input type="text" name="alamat-detail" placeholder="Jalan, Nomor Rumah, Patokan">
+                </div>
+                <div class="form-input">
+                    <label>Metode Pembayaran</label>
+                    <select name="pembayaran">
+                        <option disabled selected>Pilih Metode Pembayaran</option>
+                        <optgroup label="Cash">
+                            <option value="cash">Bayar Langsung Ke Petugas</option>
+                        </optgroup>
+                        <optgroup label="E-Wallet">
+                            <option value="gopay">GoPay</option>
+                            <option value="ovo">OVO</option>
+                            <option value="dana">DANA</option>
+                            <option value="shopeepay">SHOPEEPAY</option>
+                        </optgroup>
+                        <optgroup label="Bank">
+                            <option value="bca">BCA</option>
+                            <option value="bri">BRI</option>
+                            <option value="bni">BNI</option>
+                            <option value="mandiri">MANDIRI</option>
+                        </optgroup>
+                    </select>
+                    <label>Catatan</label>
+                    <textarea name="catatan" rows="5""></textarea></br>
+                </div>
+                <div class="price">
+                    <h1>Biaya</h1>
+                    <hr>
+                    <h2>Produk</h2>
+                    <div class="produk">
+                        <p>Paket Premium+</p>
+                        <div class="quantity">
+                            <p>1</p>
+                        </div>
+                    </div>
+                    <div class="dotted-line">
+                        <hr>
+                    </div>
+                    <div class="produk">
+                        <p>Total</p>
+                        <div class="quantity">
+                            <p>Rp80.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-input">
+                    <div class="button">
+                        <a href="layanan.html">< Batal</a>
+                    </div>
+                </div>
+                <div class="form-input">
+                    <div class="button">
+                        <div class="right">
+                            <a href="#">Lanjut ></a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
